@@ -1,0 +1,201 @@
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+  /* NAVIGATION BAR */
+  nav {
+    width: 70%;
+    font-size: 3vw;
+    margin-bottom: 5vw;
+    margin-top: 1vw;
+  }
+
+  .logo-img {
+    padding-top: 2vw;
+  }
+
+  .logo-img img {
+    width: 14vw;
+  }
+
+  /* Top background */
+  .top-bg-txt {
+    height: 100vw;
+  }
+
+  .top-bg-txt p {
+    margin-top: 12vw;
+    font-size: 5vw;
+  }
+
+  .top-bg-txt .for-of {
+    font-size: 6vw;
+  }
+
+  .top-bg-txt .for-sumo-world {
+    font-size: 18vw;
+  }
+
+  /* Top profile */
+  .top-profile {
+    height: 80vw;
+    margin-top: 54vw;
+  }
+
+  .top-profile .profile-img {
+    width: 80%;
+  }
+
+  /* INTRODUCTION */
+  .intro {
+    font-size: 3.2vw;
+  }
+
+  /* ABOUT ME */
+
+  .Aboutme {
+    margin-top: 20vw;
+  }
+  .Aboutme .h-aboutme {
+    font-size: 15vw;
+  }
+
+  .Aboutme .aboutme-content {
+    flex-direction: column;
+  }
+
+  .Aboutme .aboutme-content .content-part {
+    width: 100%;
+  }
+
+  .Aboutme .aboutme-content .content-part .h-sharmila {
+    margin-top: 4vw;
+    font-size: 6.5vw;
+  }
+
+  .Aboutme .aboutme-content .content-part .sharmila-content {
+    margin-top: 3vw;
+    width: 100%;
+    font-size: 3vw;
+  }
+
+  .Aboutme .aboutme-content .mid-profile-img {
+    height: 60vw;
+    width: 100%;
+    margin-top: 3vw;
+  }
+
+  .Aboutme .aboutme-footer {
+    margin-top: 3vw;
+    width: 100%;
+    font-size: 3vw;
+  }
+
+  /* MORE THAN CEO */
+  .more-than-ceo {
+    margin-top: 20vw;
+    flex-direction: column;
+  }
+
+  .more-than-ceo .h-more-than-ceo {
+    font-size: 15vw;
+  }
+
+  .more-than-ceo .content-more-than-ceo {
+    font-size: 9vw;
+    line-height: 1.5;
+    text-align: right;
+    padding-left: 3vw;
+  }
+
+  /* SUMO WORLD */
+  .sumo-world {
+    margin-top: 20vw;
+  }
+  /* .sumo-world .h-sumo-world {
+    flex-direction: column;
+  } */
+
+  .sumo-world .h-sumo-world img {
+    width: 40vw;
+    margin-top: 5vw;
+  }
+
+  .sumo-world .h-sumo-world p {
+    width: 55vw;
+    font-size: 15vw;
+  }
+
+  .sumo-world .content-sumo-world {
+    flex-direction: column;
+    margin-top: 4vw;
+  }
+
+  .sumo-world .content-sumo-world div p,
+  .sumo-world .content-sumo-world .image-part {
+    width: 100%;
+  }
+  .sumo-world .content-sumo-world .image-part img {
+    margin-top: 3vw;
+    width: 100%;
+    height: 100%;
+  }
+  .sumo-world .content-sumo-world div p {
+    font-size: 3vw;
+  }
+  .sumo-world .content-sumo-world .sec-para {
+    margin-top: 2vw;
+  }
+
+  .sumo-world .content-sumo-world div img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* CONTACT ME */
+  .contact-me {
+    margin-top: 20vw;
+  }
+  .contact-me .h-contact-me {
+    font-size: 15vw;
+  }
+
+  .contact-me form {
+    position: static;
+    width: 90%;
+    margin: 5vw auto;
+    gap: 3vw;
+  }
+
+  .contact-me form input,
+  .contact-me form textarea {
+    font-size: 3vw;
+    height: 10vw;
+    padding-bottom: 5vw;
+    padding-left: 3vw;
+  }
+
+  .contact-me form button {
+    font-size: 3vw;
+    padding: 2vw 4vw;
+  }
+
+  .contact-me form textarea {
+    height: 20vw;
+  }
+
+  /* FOOTER */
+  footer {
+    margin-top: 10vw;
+    height: 15vw;
+    gap: 8vw;
+  }
+
+  footer img {
+    height: 5vw;
+    width: 5vw;
+  }
+
+  footer .mail {
+    height: 4.5vw;
+    width: 5vw;
+  }
+}

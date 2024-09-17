@@ -1,0 +1,52 @@
+/* ABOUT ME */
+.Aboutme {
+  margin-top: 10vw;
+  width: 100%;
+}
+
+.Aboutme .h-aboutme {
+  font-weight: lighter;
+  color: var(--other-bg-txt);
+  letter-spacing: 2.3vw;
+  font-size: 10vw;
+  line-height: 0.85;
+}
+
+.Aboutme .aboutme-content {
+  display: flex;
+  padding: 0vw 3vw 0vw 3vw;
+}
+
+.Aboutme .aboutme-content .content-part {
+  width: 50vw;
+}
+
+/* heading for about me  */
+.Aboutme .aboutme-content .content-part .h-sharmila {
+  font-size: 4vw;
+  margin-top: 2vw;
+  letter-spacing: 0.5vw;
+}
+
+/* main content inside the about me */
+.Aboutme .aboutme-content .content-part .sharmila-content {
+  margin-top: 1.5vw;
+  width: 75%;
+  line-height: 2;
+  font-size: 1.1vw;
+}
+.Aboutme .aboutme-content .mid-profile-img {
+  width: 50vw;
+  background-color: var(--other-bg-txt);
+}
+
+/* phone number */
+.Aboutme .aboutme-footer {
+  display: flex;
+  padding: 0vh 3vw 0vh 3vw;
+  margin-top: 2vw;
+  width: 40%;
+  font-size: 1.1vw;
+  justify-content: space-between;
+  font-weight: 1000;
+}

@@ -1,0 +1,22 @@
+:root {
+  --main-txt: black;
+  --top-bg-txt: white;
+  --top-bg-txt-50trans: #ffffff80;
+  --other-bg-txt: #d9d9d9;
+  --bg-color: #e6e6e6;
+  --more-than-ceo-span-color: #ff8300;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  color: var(--main-txt);
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  color: var(--main-txt);
+}

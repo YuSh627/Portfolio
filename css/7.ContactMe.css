@@ -1,0 +1,60 @@
+/* CONTACT ME */
+.contact-me {
+  margin-top: 5vw;
+  position: relative;
+}
+
+/* contact me header */
+.contact-me .h-contact-me {
+  font-size: 10vw;
+  letter-spacing: 2.3vw;
+  color: var(--other-bg-txt);
+}
+
+/* form */
+.contact-me form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  top: 20vw;
+  right: 20vw;
+  gap: 1vw;
+}
+.contact-me form input,
+textarea {
+  padding: 0.5vw 0.5vw 2vw 0.5vw;
+  font-size: 1.1vw;
+  background-color: var(--other-bg-txt);
+  border: 1px solid var(--other-bg-txt);
+  letter-spacing: 0.2vw;
+}
+.contact-me form textarea {
+  height: 8vw;
+}
+
+/* for mordern browser platform */
+.contact-me form input::placeholder,
+textarea::placeholder {
+  color: var(--main-txt);
+}
+
+/* for cross browser platform */
+.contact-me form input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: var(--main-txt);
+}
+.contact-me form input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  color: var(--main-txt);
+}
+
+.contact-me form button {
+  padding: 0.5vw 1vw 0.5vw 1vw;
+  background-color: var(--other-bg-txt);
+  border: 1px solid var(--other-bg-txt);
+  font-size: 1.1vw;
+  letter-spacing: 0.2vw;
+  cursor: pointer;
+  width: fit-content;
+}

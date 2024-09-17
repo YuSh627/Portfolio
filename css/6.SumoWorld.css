@@ -1,0 +1,54 @@
+/* SUMO WORLD */
+.sumo-world {
+  margin-top: 15vw;
+}
+
+/* heading for sumo world */
+.sumo-world .h-sumo-world {
+  padding-left: 3vw;
+  display: flex;
+}
+
+.sumo-world .h-sumo-world img {
+  /* flex: 1; */
+  width: 50vw;
+}
+
+.sumo-world .h-sumo-world p {
+  /* flex: 1; */
+  width: 50vw;
+  font-size: 10vw;
+  letter-spacing: 2.3vw;
+  color: var(--other-bg-txt);
+  text-align: right;
+}
+.sumo-world .h-sumo-world p span {
+  letter-spacing: 0;
+  color: var(--other-bg-txt);
+}
+
+/* content for sumo world */
+.sumo-world .content-sumo-world {
+  padding: 0vh 3vw 0vh 3vw;
+  display: flex;
+}
+
+.sumo-world .content-sumo-world div p {
+  width: 40vw;
+  line-height: 2;
+  font-size: 1.1vw;
+}
+
+.sumo-world .content-sumo-world div .sec-para {
+  margin-top: 3vw;
+}
+
+.sumo-world .content-sumo-world .image-part {
+  width: 60vw;
+  text-align: right;
+}
+.sumo-world .content-sumo-world .image-part img {
+  padding-top: 3vw;
+  height: 50vw;
+  width: 50vw;
+}

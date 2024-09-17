@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1200px) {
+  /* NAVIGATION BAR */
+  nav {
+    width: 35%;
+    font-size: 1.5vw;
+  }
+
+  .logo-img img {
+    width: 6vw;
+  }
+
+  /* Top background */
+  .top-bg-txt {
+    height: 70vw;
+  }
+
+  /* Top profile */
+  .top-profile {
+    height: 55vw;
+    margin-top: 14vw;
+  }
+
+  /* INTRODUCTION */
+  .intro {
+    font-size: 2.5vw;
+  }
+
+  .intro .sec-line {
+    margin-top: 3.5vw;
+  }
+
+  /* ABOUT ME */
+  .Aboutme .h-aboutme {
+    font-size: 11vw;
+  }
+
+  .Aboutme .aboutme-content .content-part .h-sharmila {
+    font-size: 4.5vw;
+  }
+
+  .Aboutme .aboutme-content .content-part .sharmila-content {
+    width: 85%;
+    font-size: 1.5vw;
+  }
+
+  .Aboutme .aboutme-footer {
+    width: 45%;
+    font-size: 1.5vw;
+  }
+
+  /* MORE THAN CEO */
+  .more-than-ceo .h-more-than-ceo {
+    font-size: 11vw;
+    line-height: 1.25;
+  }
+
+  .more-than-ceo .content-more-than-ceo {
+    font-size: 7vw;
+  }
+
+  /* SUMO WORLD */
+  .sumo-world .h-sumo-world p {
+    line-height: 1.25;
+
+    font-size: 11vw;
+  }
+
+  .sumo-world .content-sumo-world div p {
+    font-size: 1.5vw;
+  }
+
+  .sumo-world .content-sumo-world .image-part img {
+    text-align: right;
+  }
+
+  /* CONTACT ME */
+  .contact-me .h-contact-me {
+    font-size: 11vw;
+    line-height: 1.25;
+  }
+
+  .contact-me form {
+    width: 35%;
+    top: 22vw;
+    right: 10vw;
+  }
+
+  .contact-me form input,
+  .contact-me form textarea,
+  .contact-me form button {
+    font-size: 1.5vw;
+  }
+  .contact-me form input {
+    padding-bottom: 2vw;
+  }
+
+  /* FOOTER */
+  footer {
+    height: 6vw;
+  }
+
+  footer img {
+    height: 2vw;
+    width: 2vw;
+  }
+
+  footer .mail {
+    height: 1.7vw;
+    width: 2vw;
+  }
+}

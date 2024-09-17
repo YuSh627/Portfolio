@@ -1,0 +1,26 @@
+/* MORE THAN CEO */
+.more-than-ceo {
+  display: flex;
+  margin-top: 10vw;
+  padding-right: 3vw;
+  /* align-items: center; */
+}
+
+/* 1st part: heading */
+.more-than-ceo .h-more-than-ceo {
+  flex: 1;
+  font-size: 10vw;
+  letter-spacing: 2.3vw;
+  color: var(--other-bg-txt);
+  align-self: center;
+}
+
+/* 2nd part :content */
+.more-than-ceo .content-more-than-ceo {
+  flex: 3;
+  font-size: 6.5vw;
+  text-align: right;
+}
+.more-than-ceo .content-more-than-ceo span {
+  color: var(--more-than-ceo-span-color);
+}

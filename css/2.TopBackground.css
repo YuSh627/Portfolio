@@ -1,0 +1,39 @@
+/* top background  */
+.top-bg-txt {
+  padding: 1vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60vw;
+  background-color: var(--bg-color);
+  z-index: -100;
+  text-align: center;
+}
+
+.top-bg-txt p {
+  font-size: 2.5vw;
+  font-weight: 700;
+}
+
+.top-bg-txt span {
+  font-weight: lighter;
+}
+
+.top-bg-txt .for-of {
+  font-size: 3vw;
+  letter-spacing: 0.5vw;
+  color: var(--top-bg-txt);
+}
+
+.top-bg-txt .for-sumo-world {
+  color: var(--top-bg-txt-50trans);
+  letter-spacing: 2.5vw;
+  font-size: 10.5vw;
+  line-height: 1;
+}
+
+.top-bg-txt .for-D {
+  color: var(--top-bg-txt-50trans);
+  letter-spacing: 0rem;
+}
